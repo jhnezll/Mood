@@ -11,6 +11,8 @@
 		524D848B2673352E00C4D8FA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D848A2673352E00C4D8FA /* MainView.swift */; };
 		524D848D2673355D00C4D8FA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D848C2673355D00C4D8FA /* LoginView.swift */; };
 		526217352673146100D03DFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 526217342673146100D03DFA /* GoogleService-Info.plist */; };
+		52C430E82674786000C2EA6E /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C430E72674786000C2EA6E /* JournalViewModel.swift */; };
+		52C430EA26747B6200C2EA6E /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C430E926747B6200C2EA6E /* JournalView.swift */; };
 		52FFC196267311A100B049DA /* MoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FFC195267311A100B049DA /* MoodApp.swift */; };
 		52FFC198267311A100B049DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FFC197267311A100B049DA /* ContentView.swift */; };
 		52FFC19A267311A100B049DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FFC199267311A100B049DA /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 		524D848A2673352E00C4D8FA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		524D848C2673355D00C4D8FA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		526217342673146100D03DFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52C430E72674786000C2EA6E /* JournalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewModel.swift; sourceTree = "<group>"; };
+		52C430E926747B6200C2EA6E /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
 		52FFC192267311A100B049DA /* Mood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FFC195267311A100B049DA /* MoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodApp.swift; sourceTree = "<group>"; };
 		52FFC197267311A100B049DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				524D848326732D4F00C4D8FA /* SessionStore.swift */,
+				52C430E72674786000C2EA6E /* JournalViewModel.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -108,6 +113,7 @@
 			children = (
 				524D848A2673352E00C4D8FA /* MainView.swift */,
 				524D848C2673355D00C4D8FA /* LoginView.swift */,
+				52C430E926747B6200C2EA6E /* JournalView.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
@@ -440,6 +446,8 @@
 				52FFC196267311A100B049DA /* MoodApp.swift in Sources */,
 				524D848426732D4F00C4D8FA /* SessionStore.swift in Sources */,
 				524D848D2673355D00C4D8FA /* LoginView.swift in Sources */,
+				52C430EA26747B6200C2EA6E /* JournalView.swift in Sources */,
+				52C430E82674786000C2EA6E /* JournalViewModel.swift in Sources */,
 				524D848B2673352E00C4D8FA /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
